@@ -1,0 +1,14 @@
+import { ArrowDown, ArrowUpRight, Code2, Globe2, Sparkles } from "lucide-react";
+import { getDictionary, isLocale } from "@/lib/i18n";
+import { Navbar } from "@/components/navbar";
+import { WorkSection } from "@/components/work-section";
+import { ContactForm } from "@/components/contact-form";
+import { Footer } from "@/components/footer";
+import { ExperienceControls } from "@/components/experience-controls";
+import { TechStack } from "@/components/tech-stack";
+import { CalendlyButton } from "@/components/common/CalendlyButton";
+
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: value } = await params; if (!isLocale(value)) return null; const locale = value; const t = await getDictionary(locale);
+  return <main><ExperienceControls locale={locale}/><Navbar locale={locale} t={t}/><section className="hero"><div className="hero-glow one"/><div className="hero-glow two"/><div className="grid-noise"/><div className="shell hero-content"><p className="eyebrow hero-eyebrow"><span/> {t.hero.eyebrow}</p><h1>{t.hero.title}</h1><p className="hero-copy">{t.hero.copy}</p><div className="hero-actions"><a href="#work" className="button button-solid">{t.hero.work}<ArrowDown size={17}/></a><a href="#contact" className="button button-ghost">{t.hero.project}<ArrowUpRight size={17}/></a></div></div><a href="#work" className="scroll-cue"><span>{t.hero.scroll}</span><ArrowDown size={15}/></a></section><WorkSection locale={locale} t={t}/><section id="services" className="section services shell"><div className="section-heading"><p className="eyebrow">{t.services.eyebrow}</p><h2>{t.services.title}</h2></div><div className="service-grid">{t.services.items.map((service, index) => <div className="service-card" key={service}>{index === 0 ? <Globe2/> : index === 1 ? <Code2/> : <Sparkles/>}<span>0{index + 1}</span><h3>{service}</h3></div>)}</div></section><TechStack locale={locale}/><section id="about" className="section about shell"><div className="about-mark">A<span>•</span></div><div><p className="eyebrow">{t.about.eyebrow}</p><h2>{t.about.title}</h2><p>{t.about.copy}</p></div></section><section id="contact" className="contact-section"><div className="shell contact-grid"><div><p className="eyebrow">{t.contact.eyebrow}</p><h2>{t.contact.title}</h2><p className="contact-note">info@adonixdigital.com<br/><span dir="ltr">+966 53 849 8580</span></p></div><ContactForm t={t}/></div></section><section className="cta shell"><div><p className="eyebrow">Adonix Digital</p><h2>{t.cta.title}</h2><p>{t.cta.copy}</p></div><div className="cta-actions"><CalendlyButton text={t.cta.call} variant="outline" className="button"/><a href="#contact" className="button button-solid">{t.cta.project}<ArrowUpRight size={17}/></a></div></section><Footer locale={locale} t={t}/></main>;
+}

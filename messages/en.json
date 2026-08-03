@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "work": "Work",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "start": "Book a Call"
+  },
+
+  "hero": {
+    "eyebrow": "AI • Websites • Digital Growth • Saudi Arabia",
+    "title": "Premium Digital Solutions for Modern Businesses.",
+    "copy": "Adonix Digital helps ambitious businesses accelerate growth through premium website development, AI automation, SEO, digital marketing, custom software, and scalable digital solutions designed to generate measurable results.",
+    "work": "Explore Our Work",
+    "project": "Book a Discovery Call",
+    "scroll": "Discover our work"
+  },
+
+  "work": {
+    "eyebrow": "Portfolio",
+    "title": "Real projects. Real businesses. Real results.",
+    "copy": "Every project represents a unique business challenge solved through thoughtful design, modern technology, automation, and performance-focused development. Explore fully interactive websites built by Adonix Digital.",
+    "all": "All",
+    "visit": "Visit Website",
+    "case": "View Case Study",
+    "preview": "Live Preview",
+    "expand": "Expand Preview",
+    "close": "Close Preview",
+    "device": "Device",
+    "manyMoreKicker": "Portfolio",
+    "manyMoreTitle": "Many More Projects",
+    "manyMoreCopy": "We've delivered many more websites, AI solutions, business platforms, and digital experiences for clients across multiple industries. Contact us to explore our complete portfolio.",
+    "manyMoreButton": "Book a Call",
+    "desktop": "Desktop",
+    "tablet": "Tablet",
+    "mobile": "Mobile",
+    "categories": {
+      "realEstate": "Real Estate",
+      "industrial": "Industrial",
+      "healthcare": "Healthcare",
+      "crm": "CRM",
+      "agency": "Agency",
+      "dating": "Dating",
+      "restaurant": "Restaurant",
+      "business": "Business"
+    }
+  },
+
+  "services": {
+    "eyebrow": "What We Do",
+    "title": "End-to-end digital solutions for ambitious brands.",
+    "items": [
+      "Premium Website Design & Development",
+      "Custom Web Applications",
+      "AI Automation & AI Agents",
+      "CRM Development & Business Systems",
+      "Search Engine Optimization (SEO)",
+      "Digital Marketing & Lead Generation",
+      "Performance Marketing",
+      "Social Media Marketing",
+      "Google Ads & Meta Ads",
+      "UI/UX Design",
+      "Brand Identity & Creative Design",
+      "E-commerce Solutions",
+      "Website Maintenance & Support",
+      "Analytics & Conversion Optimization"
+    ]
+  },
+
+  "about": {
+    "eyebrow": "About Adonix Digital",
+    "title": "A digital partner focused on innovation, automation and business growth.",
+    "copy": "Adonix Digital is a Saudi-focused digital agency helping startups, SMEs and enterprises transform ideas into high-performing digital products. We combine premium design, modern development, AI automation, SEO and digital marketing to create experiences that not only look exceptional but also drive measurable business growth. From corporate websites and custom software to AI-powered automation and scalable marketing systems, we build solutions that help businesses attract customers, improve efficiency and scale with confidence."
+  },
+
+  "cta": {
+    "title": "Let's build something exceptional together.",
+    "copy": "Whether you're launching a new business, redesigning your website, automating operations with AI or scaling your digital marketing, our team is ready to help you create a solution that delivers real business results.",
+    "call": "Book a Free Strategy Call",
+    "project": "Start Your Project"
+  },
+
+  "contact": {
+    "eyebrow": "Let's Talk",
+    "title": "Ready to grow your business?",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "company": "Company",
+    "projectType": "Project Type",
+    "budget": "Estimated Budget",
+    "message": "Tell us about your project",
+    "send": "Send Inquiry",
+    "success": "Thank you! Our team will contact you shortly.",
+    "select": "Select an option",
+    "types": [
+      "Business Website",
+      "Corporate Website",
+      "Web Application",
+      "AI Automation",
+      "CRM Development",
+      "SEO Services",
+      "Digital Marketing",
+      "Brand Identity",
+      "E-commerce Website",
+      "Other"
+    ],
+    "budgets": [
+      "Under SAR 10,000",
+      "SAR 10,000 – 30,000",
+      "SAR 30,000 – 75,000",
+      "SAR 75,000 – 150,000",
+      "SAR 150,000+"
+    ]
+  },
+
+  "footer": {
+    "rights": "All Rights Reserved.",
+    "location": "Jeddah, Saudi Arabia"
+  },
+
+  "case": {
+    "back": "All Projects",
+    "overview": "Overview",
+    "challenge": "Challenge",
+    "solution": "Solution",
+    "features": "Key Features",
+    "technology": "Technology Stack",
+    "live": "Visit Live Website",
+    "next": "Next Project",
+    "details": "Project Details",
+    "country": "Country",
+    "year": "Year"
+  }
+}
