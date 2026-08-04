@@ -349,6 +349,152 @@ const projectRecords: Omit<Project, "industry" | "thumbnail" | "gallery" | "seo"
     ]
   }
 },
+{
+  slug: "mis-jeddah",
+  title: "MIS Jeddah",
+  category: "business",
+  country: "Saudi Arabia",
+  year: "2026",
+  url: "https://misjeddah.com",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "SEO",
+    "Responsive Design",
+    "Vercel"
+  ],
+  description: {
+    ar: "موقع إلكتروني احترافي يعرض خدمات الشركة وخبراتها بأسلوب عصري، مع تجربة مستخدم متجاوبة وتصميم يعكس الهوية المؤسسية ويعزز الثقة.",
+    en: "A premium corporate website designed for a leading business in Saudi Arabia, showcasing company services, expertise, and digital presence through a modern, responsive, and conversion-focused experience."
+  },
+  features: {
+    ar: [
+      "موقع شركة احترافي",
+      "واجهة مستخدم حديثة",
+      "تصميم متجاوب",
+      "تحسين لمحركات البحث",
+      "نماذج تواصل"
+    ],
+    en: [
+      "Corporate website",
+      "Premium UI",
+      "Responsive design",
+      "SEO optimized",
+      "Lead generation"
+    ]
+  }
+},
+{
+  slug: "bgc-arabia-contracting",
+  title: "BGC Arabia Contracting",
+  category: "industrial",
+  country: "Saudi Arabia",
+  year: "2026",
+  url: "https://bgcarabia-contracting.com",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "SEO",
+    "Framer Motion"
+  ],
+  description: {
+    ar: "موقع احترافي لشركة مقاولات يعرض الخدمات الهندسية والمشاريع المنجزة بطريقة عصرية مع تجربة استخدام سهلة وواجهة احترافية.",
+    en: "A modern contracting and construction company website highlighting engineering services, completed projects, and business capabilities with a professional digital experience."
+  },
+  features: {
+    ar: [
+      "عرض المشاريع",
+      "صفحات الخدمات",
+      "نماذج التواصل",
+      "تصميم متجاوب",
+      "تحسين لمحركات البحث"
+    ],
+    en: [
+      "Project showcase",
+      "Service pages",
+      "Contact forms",
+      "Responsive design",
+      "SEO ready"
+    ]
+  }
+},
+{
+  slug: "sen-fruit-import",
+  title: "SEN Fruit Import",
+  category: "business",
+  country: "Saudi Arabia",
+  year: "2026",
+  url: "https://senfruitimport.com",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "SEO",
+    "Responsive Design"
+  ],
+  description: {
+    ar: "موقع احترافي لاستيراد وتوزيع الفواكه يعرض المنتجات والخدمات بطريقة منظمة مع تجربة استخدام حديثة وسريعة.",
+    en: "A professional import and distribution website showcasing premium fruit products, company services, and international sourcing with a clean business-focused interface."
+  },
+  features: {
+    ar: [
+      "عرض المنتجات",
+      "نبذة عن الشركة",
+      "تصميم متجاوب",
+      "تحسين لمحركات البحث",
+      "أداء عالي"
+    ],
+    en: [
+      "Product showcase",
+      "Company profile",
+      "Responsive UI",
+      "SEO optimized",
+      "Fast performance"
+    ]
+  }
+},
+{
+  slug: "basri-developments",
+  title: "Basri Developments",
+  category: "realEstate",
+  country: "Saudi Arabia",
+  year: "2026",
+  url: "https://basridevelopments.com",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion",
+    "SEO",
+    "Vercel"
+  ],
+  description: {
+    ar: "منصة عقارية احترافية تعرض المشاريع السكنية والتجارية بتصميم فاخر وتجربة تصفح سلسة تساعد العملاء على اكتشاف المشاريع بسهولة.",
+    en: "A premium real estate website showcasing residential and commercial developments through an elegant design, immersive visuals, and a seamless browsing experience."
+  },
+  features: {
+    ar: [
+      "عرض المشاريع العقارية",
+      "تصميم احترافي",
+      "تصميم متجاوب",
+      "تجربة تفاعلية",
+      "تحسين لمحركات البحث"
+    ],
+    en: [
+      "Property showcase",
+      "Premium UI",
+      "Responsive design",
+      "Interactive experience",
+      "SEO optimized"
+    ]
+  }
+},
 ];
 
 const industries: Record<ProjectCategory, string> = {
