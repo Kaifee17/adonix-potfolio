@@ -278,7 +278,7 @@ const projectRecords: Omit<Project, "industry" | "thumbnail" | "gallery" | "seo"
   category: "business",
   country: "Saudi Arabia",
   year: "2026",
-  url: "https://gulf-reference.vercel.app/",
+  url: "https://gulf-m-reference.vercel.app/",
   technologies: [
     "Next.js",
     "React",
