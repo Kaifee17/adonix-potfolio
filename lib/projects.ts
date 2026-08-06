@@ -1,4 +1,4 @@
-export type ProjectCategory = "realEstate" | "industrial" | "healthcare" | "crm" | "agency" | "dating" | "restaurant" | "business";
+export type ProjectCategory = "realEstate" | "industrial" | "healthcare" | "crm" | "agency" | "dating" | "restaurant" | "business" |"ai";
 export type Project = { slug: string; title: string; category: ProjectCategory; industry: string; country: string; year: string; url: string; thumbnail: string; gallery: string[]; seo: { title: string; description: string }; technologies: string[]; description: { ar: string; en: string }; features: { ar: string[]; en: string[] } };
 
 const projectRecords: Omit<Project, "industry" | "thumbnail" | "gallery" | "seo">[] = [
@@ -79,6 +79,59 @@ const projectRecords: Omit<Project, "industry" | "thumbnail" | "gallery" | "seo"
       ]
     }
   },
+  {
+  slug: "allgpt",
+  title: "AllGPT",
+  category: "ai",
+  country: "Saudi Arabia",
+  year: "2026",
+  url: "https://allgpt.com/",
+  technologies: [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Node.js",
+    "OpenAI",
+    "Claude",
+    "Gemini",
+    "DeepSeek",
+    "Grok",
+    "AI APIs",
+    "AI Agents",
+    "Image Generation",
+    "Video Generation",
+    "Document AI",
+    "SEO",
+    "Vercel"
+  ],
+  description: {
+    ar: "منصة ذكاء اصطناعي متكاملة تجمع أكثر من 200 نموذج ذكاء اصطناعي في مكان واحد، مما يتيح للمستخدمين إنشاء النصوص والصور والفيديوهات والعروض التقديمية وتحليل المستندات واستخدام وكلاء الذكاء الاصطناعي من خلال تجربة استخدام احترافية وسريعة.",
+    en: "AllGPT is an all-in-one AI platform that brings together more than 200 leading AI models in a single workspace. It enables users to generate text, images, videos, presentations, analyze documents, write code, and automate workflows through a fast, modern, and premium user experience."
+  },
+  features: {
+    ar: [
+      "أكثر من 200 نموذج ذكاء اصطناعي",
+      "إنشاء الصور بالذكاء الاصطناعي",
+      "إنشاء الفيديوهات",
+      "إنشاء العروض التقديمية",
+      "تحليل المستندات",
+      "مساعد برمجي",
+      "وكلاء الذكاء الاصطناعي",
+      "واجهة احترافية وسريعة"
+    ],
+    en: [
+      "200+ AI Models",
+      "AI Image Generation",
+      "AI Video Generation",
+      "AI Presentations",
+      "Document Analysis",
+      "AI Coding Assistant",
+      "AI Agents",
+      "Premium User Experience"
+    ]
+  }
+},
 
   {
     slug: "primesteel",
@@ -505,7 +558,8 @@ const industries: Record<ProjectCategory, string> = {
   agency: "Agency",
   dating: "Dating",
   restaurant: "Restaurant",
-  business: "Business"
+  business: "Business",
+  ai: "Artificial Intelligence"
 };
 
 export const projects: Project[] = projectRecords.map((project) => ({

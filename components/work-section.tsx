@@ -9,7 +9,7 @@ import { CalendlyButton } from "./common/CalendlyButton";
 
 export function WorkSection({ locale, t }: { locale: Locale; t: Dictionary }) {
   const [active, setActive] = useState<ProjectCategory | "all">("all");
-  const categories = ["all", "realEstate", "industrial", "healthcare", "crm", "agency", "dating", "restaurant", "business"] as const;
+  const categories = ["all", "realEstate", "industrial", "healthcare", "crm", "agency", "dating", "restaurant", "business" , "ai"] as const;
   const visible = active === "all" ? projects : projects.filter((project) => project.category === active);
 
   const renderProjectInfo = (project: (typeof projects)[number], index: number) => (
